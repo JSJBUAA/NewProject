@@ -18,10 +18,14 @@
 		6FC0DF0B1E6BB6F500575779 /* GroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF0A1E6BB6F500575779 /* GroupTableViewCell.m */; };
 		6FC0DF0F1E6BCF0300575779 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF0E1E6BCF0300575779 /* LoginViewController.m */; };
 		6FC0DF121E6BD72100575779 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF111E6BD72100575779 /* RegisterViewController.m */; };
-		6FC0DF151E6BD74500575779 /* SelectLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF141E6BD74500575779 /* SelectLocationViewController.m */; };
 		6FC0DF181E6BD97D00575779 /* ProjectBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF171E6BD97D00575779 /* ProjectBaseTextField.m */; };
 		6FC0DF1C1E6BDD5500575779 /* UserInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF1B1E6BDD5500575779 /* UserInputView.m */; };
 		6FC0DF1F1E6BDF7800575779 /* ProjectBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF1E1E6BDF7800575779 /* ProjectBaseButton.m */; };
+		6FC0DF241E6C040100575779 /* LoginNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF231E6C040100575779 /* LoginNavigationViewController.m */; };
+		6FC0DF271E6C099A00575779 /* SelectLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF261E6C099A00575779 /* SelectLocationViewController.m */; };
+		6FC0DF2A1E6C0ED200575779 /* SelectLocationHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF291E6C0ED200575779 /* SelectLocationHeaderView.m */; };
+		6FC0DF2F1E6C19DC00575779 /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF2E1E6C19DC00575779 /* LocationModel.m */; };
+		6FC0DF321E6C1A5F00575779 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DF311E6C1A5F00575779 /* LocationManager.m */; };
 		C097527E1E5F3D6E00320440 /* ProjectBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C097527D1E5F3D6E00320440 /* ProjectBaseViewController.m */; };
 		C09752811E5F3D8E00320440 /* TableViewBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09752801E5F3D8E00320440 /* TableViewBaseViewController.m */; };
 		C0AA9FD51E6578360058FBC1 /* ProjectBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA9FD41E6578360058FBC1 /* ProjectBaseModel.m */; };
@@ -164,8 +168,6 @@
 		6FC0DF0E1E6BCF0300575779 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		6FC0DF101E6BD72100575779 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		6FC0DF111E6BD72100575779 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
-		6FC0DF131E6BD74500575779 /* SelectLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLocationViewController.h; sourceTree = "<group>"; };
-		6FC0DF141E6BD74500575779 /* SelectLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLocationViewController.m; sourceTree = "<group>"; };
 		6FC0DF161E6BD97D00575779 /* ProjectBaseTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectBaseTextField.h; sourceTree = "<group>"; };
 		6FC0DF171E6BD97D00575779 /* ProjectBaseTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectBaseTextField.m; sourceTree = "<group>"; };
 		6FC0DF1A1E6BDD5500575779 /* UserInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInputView.h; sourceTree = "<group>"; };
@@ -174,6 +176,16 @@
 		6FC0DF1E1E6BDF7800575779 /* ProjectBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectBaseButton.m; sourceTree = "<group>"; };
 		6FC0DF201E6BEE1200575779 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		6FC0DF211E6BEE1200575779 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6FC0DF221E6C040100575779 /* LoginNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginNavigationViewController.h; sourceTree = "<group>"; };
+		6FC0DF231E6C040100575779 /* LoginNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginNavigationViewController.m; sourceTree = "<group>"; };
+		6FC0DF251E6C099A00575779 /* SelectLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLocationViewController.h; sourceTree = "<group>"; };
+		6FC0DF261E6C099A00575779 /* SelectLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLocationViewController.m; sourceTree = "<group>"; };
+		6FC0DF281E6C0ED200575779 /* SelectLocationHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLocationHeaderView.h; sourceTree = "<group>"; };
+		6FC0DF291E6C0ED200575779 /* SelectLocationHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLocationHeaderView.m; sourceTree = "<group>"; };
+		6FC0DF2D1E6C19DC00575779 /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		6FC0DF2E1E6C19DC00575779 /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		6FC0DF301E6C1A5F00575779 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		6FC0DF311E6C1A5F00575779 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 		C09752791E5F378F00320440 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		C097527A1E5F37C600320440 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C097527C1E5F3D6E00320440 /* ProjectBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectBaseViewController.h; sourceTree = "<group>"; };
@@ -471,8 +483,10 @@
 				6FC0DF0E1E6BCF0300575779 /* LoginViewController.m */,
 				6FC0DF101E6BD72100575779 /* RegisterViewController.h */,
 				6FC0DF111E6BD72100575779 /* RegisterViewController.m */,
-				6FC0DF131E6BD74500575779 /* SelectLocationViewController.h */,
-				6FC0DF141E6BD74500575779 /* SelectLocationViewController.m */,
+				6FC0DF251E6C099A00575779 /* SelectLocationViewController.h */,
+				6FC0DF261E6C099A00575779 /* SelectLocationViewController.m */,
+				6FC0DF221E6C040100575779 /* LoginNavigationViewController.h */,
+				6FC0DF231E6C040100575779 /* LoginNavigationViewController.m */,
 			);
 			path = LoginViewController;
 			sourceTree = "<group>";
@@ -482,8 +496,28 @@
 			children = (
 				6FC0DF1A1E6BDD5500575779 /* UserInputView.h */,
 				6FC0DF1B1E6BDD5500575779 /* UserInputView.m */,
+				6FC0DF281E6C0ED200575779 /* SelectLocationHeaderView.h */,
+				6FC0DF291E6C0ED200575779 /* SelectLocationHeaderView.m */,
 			);
 			path = LoginView;
+			sourceTree = "<group>";
+		};
+		6FC0DF2B1E6C191800575779 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				6FC0DF301E6C1A5F00575779 /* LocationManager.h */,
+				6FC0DF311E6C1A5F00575779 /* LocationManager.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		6FC0DF2C1E6C19C000575779 /* LocationModel */ = {
+			isa = PBXGroup;
+			children = (
+				6FC0DF2D1E6C19DC00575779 /* LocationModel.h */,
+				6FC0DF2E1E6C19DC00575779 /* LocationModel.m */,
+			);
+			path = LocationModel;
 			sourceTree = "<group>";
 		};
 		C097527B1E5F3D6E00320440 /* BaseViewController */ = {
@@ -717,6 +751,7 @@
 		C0BF715F1E5C23C100F09EE8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6FC0DF2C1E6C19C000575779 /* LocationModel */,
 				6FC0DF041E6BAF8200575779 /* GroupModel */,
 				C0BF71A01E5DA60000F09EE8 /* ActivityModel */,
 				C0AA9FD31E6578360058FBC1 /* ProjectBaseModel.h */,
@@ -757,6 +792,7 @@
 		C0BF71631E5C23C100F09EE8 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				6FC0DF2B1E6C191800575779 /* LocationManager */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";
@@ -1178,6 +1214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC0DF2F1E6C19DC00575779 /* LocationModel.m in Sources */,
 				C0BF719A1E5D762000F09EE8 /* LaunchActivityViewController.m in Sources */,
 				6FC0DF121E6BD72100575779 /* RegisterViewController.m in Sources */,
 				6FC0DEED1E69A30300575779 /* AFNApiBase.m in Sources */,
@@ -1185,6 +1222,7 @@
 				C0BF71901E5D460800F09EE8 /* FourthTestViewController.m in Sources */,
 				C0E33B6E1E6185EC00314B07 /* MDKAssetsViewController.m in Sources */,
 				C0E33BB41E61CFEE00314B07 /* NSData+ImageContentType.m in Sources */,
+				6FC0DF241E6C040100575779 /* LoginNavigationViewController.m in Sources */,
 				C0AAA01B1E66A08B0058FBC1 /* MJRefreshConst.m in Sources */,
 				C0E33BD51E61D05400314B07 /* AFNetworkReachabilityManager.m in Sources */,
 				C0AAA0151E66A08B0058FBC1 /* MJRefreshBackNormalFooter.m in Sources */,
@@ -1218,7 +1256,6 @@
 				C0E33B5C1E616B3200314B07 /* MASConstraint.m in Sources */,
 				C0AAA0111E66A08B0058FBC1 /* MJRefreshAutoGifFooter.m in Sources */,
 				C0E33BB31E61CFEE00314B07 /* MKAnnotationView+WebCache.m in Sources */,
-				6FC0DF151E6BD74500575779 /* SelectLocationViewController.m in Sources */,
 				C0E33B6D1E6185EC00314B07 /* MDKAssetsPhotoViewController.m in Sources */,
 				C0E33BBC1E61CFEE00314B07 /* SDWebImageManager.m in Sources */,
 				C0E33B7D1E61CD5D00314B07 /* NSArray+Safe.m in Sources */,
@@ -1232,6 +1269,8 @@
 				C0AAA0121E66A08B0058FBC1 /* MJRefreshAutoNormalFooter.m in Sources */,
 				6FC0DF031E6AB97000575779 /* GroupSearchViewController.m in Sources */,
 				C0C366101E603F8F00ADF70C /* ActivityTableView.m in Sources */,
+				6FC0DF2A1E6C0ED200575779 /* SelectLocationHeaderView.m in Sources */,
+				6FC0DF271E6C099A00575779 /* SelectLocationViewController.m in Sources */,
 				C0E33B621E616B3200314B07 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				C0E33BBD1E61CFEE00314B07 /* SDWebImagePrefetcher.m in Sources */,
 				C0E33BD41E61D05400314B07 /* AFHTTPSessionManager.m in Sources */,
@@ -1259,6 +1298,7 @@
 				C0E33B751E6189EF00314B07 /* MDMBProgressHUD.m in Sources */,
 				C0E33B781E61CC1300314B07 /* ActivitySettingViewController.m in Sources */,
 				C0E33B631E616B3200314B07 /* View+MASAdditions.m in Sources */,
+				6FC0DF321E6C1A5F00575779 /* LocationManager.m in Sources */,
 				C0E33BE11E62772C00314B07 /* PersonalSettingViewController.m in Sources */,
 				C0E33B7E1E61CD5D00314B07 /* NSObject+MFDictionaryAdapter.m in Sources */,
 				C0E33BD91E61D05400314B07 /* AFURLSessionManager.m in Sources */,

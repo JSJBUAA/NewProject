@@ -7,15 +7,38 @@
 //
 
 #import "SelectLocationHeaderView.h"
+#import <MapKit/MapKit.h>
+
+@interface SelectLocationHeaderView () <MKMapViewDelegate>
+
+@property (nonatomic, strong) UISearchBar *searchBar;//搜索框，暂时不加
+@property (nonatomic, strong) MKMapView *mapView;
+
+@end
 
 @implementation SelectLocationHeaderView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    if (self = [super initWithFrame:frame]) {
+        [self addSubview:self.mapView];
+    }
+    return self;
 }
-*/
+
+- (MKMapView *)mapView
+{
+    if (!_mapView) {
+        MKMapView *mapView = [[MKMapView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+        mapView.mapType = MKMapTypeStandard;
+        mapView.showsUserLocation = YES;
+        mapView.scrollEnabled = NO;
+        mapView.zoomEnabled = NO;
+        mapView.rotateEnabled = NO;
+        mapView.delegate = self;
+        _mapView = mapView;
+    }
+    return _mapView;
+}
 
 @end

@@ -71,7 +71,7 @@
 - (ProjectBaseButton *)questionButton
 {
     if (!_questionButton) {
-        ProjectBaseButton *button = [ProjectBaseButton singleUnderlinedButtonWithType:UIButtonTypeCustom frame:CGRectMake(40.0f, 250.0f, 100.0f, 30.0f) title:@"遇到问题?" target:self selector:@selector(questionButtonClicked:)];
+        ProjectBaseButton *button = [ProjectBaseButton singleUnderlinedButtonWithType:UIButtonTypeCustom frame:CGRectMake(20.0f, 280.0f, 80.0f, 30.0f) title:@"遇到问题?" target:self selector:@selector(questionButtonClicked:)];
         _questionButton = button;
     }
     return _questionButton;
@@ -80,13 +80,28 @@
 - (ProjectBaseButton *)registerButton
 {
     if (!_registerButton) {
-        ProjectBaseButton *button = [ProjectBaseButton singleUnderlinedButtonWithType:UIButtonTypeCustom frame:CGRectMake([ProjectUtility getScreenWidth] - 40.0f - 100.0f, 300.0f, 100.0f, 30.0f) title:@"注册账号" target:self selector:@selector(registerButtonClicked:)];
+        ProjectBaseButton *button = [ProjectBaseButton singleUnderlinedButtonWithType:UIButtonTypeCustom frame:CGRectMake([ProjectUtility getScreenWidth] - 20.0f - 80.0f, 280.0f, 80.0f, 30.0f) title:@"注册账号" target:self selector:@selector(registerButtonClicked:)];
         _registerButton = button;
     }
     return _registerButton;
 }
 
 #pragma mark --------------------------- 点击方法 ---------------------------
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
+}
+
+- (void)questionButtonClicked:(ProjectBaseButton *)button
+{
+    
+}
+
+- (void)registerButtonClicked:(ProjectBaseButton *)button
+{
+    RegisterViewController *registerViewController = [[RegisterViewController alloc] initWithTitle:@"账号注册" leftButtonTitle:@"取消" rightButtonTitle:nil];
+    [self.navigationController pushViewController:registerViewController animated:YES];
+}
 
 #pragma mark --------------------------- 网络请求 ---------------------------
 

@@ -25,7 +25,7 @@
 - (UITableView *)mainTableView
 {
     if (!_mainTableView) {
-        UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [ProjectUtility getScreenWidth], [ProjectUtility getScreenHeight] - kPhoneNavigationBarHeight) style:UITableViewStylePlain];
+        UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [ProjectUtility getScreenWidth], [ProjectUtility getScreenHeight] - kPhoneNavigationBarHeight - kPhoneTabBarItemHeight) style:UITableViewStylePlain];
         tableView.backgroundColor = [UIColor whiteColor];
         tableView.delegate = self;
         tableView.dataSource = self;
