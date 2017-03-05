@@ -14,48 +14,24 @@
 
 @implementation SelectLocationViewController
 
-#pragma mark --------------------------- View生命周期 ---------------------------
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self initData];
-    [self configUI];
+    // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
-#pragma mark --------------------------- 初始化Data ---------------------------
-- (void)initData
-{
-    
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
-
-#pragma mark --------------------------- 注册通知及回调 ---------------------------
-- (void)registerNotifyAndCallback
-{
-    
-}
-
-#pragma mark --------------------------- 布局UI ---------------------------
-- (void)configUI
-{
-    
-}
-
-#pragma mark --------------------------- Getter ---------------------------
-
-#pragma mark --------------------------- 点击方法 ---------------------------
-
-#pragma mark --------------------------- 网络请求 ---------------------------
-
-#pragma mark --------------------------- 代理方法 ---------------------------
-
-#pragma mark --------------------------- 公开方法 ---------------------------
-
-#pragma mark --------------------------- 私有方法 ---------------------------
+*/
 
 @end
