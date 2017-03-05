@@ -6,8 +6,8 @@
 //  Copyright © 2017年 jiangshiju. All rights reserved.
 //
 
-#import "ProjectBaseViewController.h"
+#import "TableViewBaseViewController.h"
 
-@interface SelectLocationViewController : ProjectBaseViewController
+@interface SelectLocationViewController : TableViewBaseViewController
 
 @end

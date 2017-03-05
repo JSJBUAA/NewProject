@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "CustomTabBarViewController.h"
 #import "LoginViewController.h"
+#import "LoginNavigationViewController.h"
 
 @interface AppDelegate ()
 
@@ -24,7 +25,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     LoginViewController *loginViewController = [[LoginViewController alloc] initWithTitle:@"账号登录"];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginViewController];
+    LoginNavigationViewController *nav = [[LoginNavigationViewController alloc] initWithRootViewController:loginViewController];
     self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
